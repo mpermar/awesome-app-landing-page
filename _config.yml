@@ -9,7 +9,7 @@
 #
 app:
   name: Koala - Travel with Kids # REQUIRED - Enter your app name
-  ios_id: 912209541 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  ios_id:  # Optional - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: com.koalaapp # Optional - Enter Android app id like: com.example.app
 
   icon: images/icon.png # Leave blank to auto-magically populate
