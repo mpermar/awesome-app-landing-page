@@ -495,7 +495,7 @@
 							<h3>Puntuaciones</h3>
 						</div>
 						<div class="col-lg-9">
-							<div id="score_detail"><span>88</span>Excelente para Niños <small>(Según puntuación  9.2  en booking.com y nuestra IA)</small>
+							<div id="score_detail"><span>89</span>Excelente para Niños <small>(Según puntuación  9.5  en booking.com y nuestra IA)</small>
 							</div>
 							<!-- End general_rating -->
 							<div class="row" id="rating_summary">
@@ -554,6 +554,20 @@
 						</div>
 						<div class="col-lg-9">							
                                 <div class="review_strip_single">
+                                    <small> 08/01/2019 </small>
+                                    <h4>Exceptional</h4>
+                                    <p>
+                                        "Location, staff, cleanliness, turn down service, and board games available for kids."
+                                    </p>
+                                    <div class="rating">                                        
+                                            <i class="icon-smile voted"></i>
+                                            <i class="icon-smile voted"></i>
+                                            <i class="icon-smile voted"></i>
+                                            <i class="icon-smile voted"></i>
+                                            <i class="icon-smile voted"></i>
+                                    </div>
+                                </div>
+                                <div class="review_strip_single">
                                     <small> 02/07/2017 </small>
                                     <h4>We splashed out on the 2 bed apartment which was fantastic.</h4>
                                     <p>
@@ -609,20 +623,35 @@
                                             <i class="icon-smile"></i>
                                     </div>
                                 </div>
-                                <div class="review_strip_single">
-                                    <small> 10/09/2015 </small>
-                                    <h4>Familienzimmer einfach toll.</h4>
-                                    <p>
-                                        "Familienzimmer einfach toll. Für Selbstversorger ideal. Frühstück im Restaurant nicht so toll und zu teuer. Service am Pool gut. Sonnenaufgänge und -Untergänge einfach traumhaft."
-                                    </p>
-                                    <div class="rating">                                        
-                                            <i class="icon-smile voted"></i>
-                                            <i class="icon-smile"></i>
-                                            <i class="icon-smile"></i>
-                                            <i class="icon-smile"></i>
-                                            <i class="icon-smile"></i>
-                                    </div>
-                                </div>
+							<div id="reviews" class="accordion_styled">
+								<div class="card">
+									<div class="card-header">
+										<h4>
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#reviews" href="#collapseOne_reviews">
+												Expande para leer otras 1 experiencias con niños...<i class="indicator icon-plus float-right"></i>
+											</a>
+										</h4>
+									</div>
+									<div id="collapseOne_reviews" class="collapse" data-parent="#reviews">
+										<div class="card-body">
+												<div class="review_strip_single">
+													<small> - 10/09/2015 -</small>
+													<h4>Familienzimmer einfach toll.</h4>
+													<p>
+														"Familienzimmer einfach toll. Für Selbstversorger ideal. Frühstück im Restaurant nicht so toll und zu teuer. Service am Pool gut. Sonnenaufgänge und -Untergänge einfach traumhaft."
+													</p>
+													<div class="rating">                                        
+															<i class="icon-smile voted"></i>
+															<i class="icon-smile"></i>
+															<i class="icon-smile"></i>
+															<i class="icon-smile"></i>
+															<i class="icon-smile"></i>
+													</div>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>				
 						</div>
 					</div>
 
@@ -946,7 +975,7 @@
                         <h6>Habitaciones hasta  <span>195 <small>sqm</small></span></h6>
                 	</div>					
 					<div class="box_style_1 expose">
-						<form id="book" name="book" method="POST" action="http://koalatravel.app:3005/book">
+						<form id="book" name="book" method="POST" action="http://booking.koalatravel.app:3005/book">
 							<input type="hidden" id="dest_id" name="dest_id" value="454880"/>
 							<input type="hidden" id="language" name="language" value="es"/>
 							<input type="hidden" id="propertyId" name="id" value="5b5be470c2030b29e454fbf6"/>
