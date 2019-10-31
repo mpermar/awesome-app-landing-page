@@ -51,8 +51,8 @@ marketing_desc: Koala is the best app for finding accommodation when travelling 
 # Includes an icon for each username you enter
 #
 social-links:
-  github:
-  facebook:
+  github: https://www.twitter.com/koala_travel
+  facebook: https://www.facebook.com/KoalaTravelApp/
   twitter:
   pinterest:
   instagram:
